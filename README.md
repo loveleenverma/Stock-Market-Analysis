@@ -1,2 +1,10 @@
 # Stock-Market-Analysis
-Stock market analysis using SQL and Tableau.
+The project involved analyzing six different stocks' data obtained from the National Stock Exchange (NSE) using SQL for Exploratory Data Analysis (EDA) and generating buy, sell, and hold signals with corresponding timeframes. One of the key techniques used in the analysis was the Moving Average, along with SQL window functions for data manipulation and analysis.
+
+The project began with extracting and loading the stock data into an SQL database. SQL window functions were then utilized to compute various technical indicators, such as moving averages, for each stock. Moving averages are a commonly used technical indicator in stock market analysis that help identify trends and potential buying or selling signals.
+
+The EDA phase involved conducting comprehensive analyses on the stock data, including calculating statistical measures like mean, median, and standard deviation, and visualizing the data using charts and graphs. The SQL window functions were leveraged to compute moving averages of different timeframes, such as 20-day and 50-day moving averages, to identify trend patterns and potential buying or selling opportunities.
+
+Based on the analysis, buy, sell, and hold signals were generated using a combination of moving average crossovers and trend patterns. For example, if the short-term moving average (e.g., 20-day) crosses above the long-term moving average (e.g., 50-day), it may generate a "buy" signal, indicating that it may be a good time to purchase the stock. Conversely, if the short-term moving average crosses below the long-term moving average, it may generate a "sell" signal, indicating that it may be a good time to sell the stock. If the moving averages are close to each other or do not show a clear trend, a "hold" signal may be generated, indicating that it may be prudent to wait and not take any action.
+
+Overall, the project combined SQL and moving averages to perform EDA and analysis on stock data, generating buy, sell, and hold signals with corresponding timeframes to assist in making informed investment decisions. It demonstrated the importance of using technical indicators and SQL window functions in stock market analysis to identify potential trading opportunities and manage risk.
